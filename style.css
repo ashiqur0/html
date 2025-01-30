@@ -22,3 +22,7 @@ th, td {
     justify-content: space-between;
     color: white;
 }
+
+.external-css {
+    color: orange;
+}
