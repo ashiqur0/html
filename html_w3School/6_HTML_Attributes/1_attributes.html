@@ -1,0 +1,77 @@
+<!-- 
+HTML Attributes : Provides Additional Informatin About HTML Elements
+
+HTML Attributes :
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+
+The href Attribute :
+<a> tag defines the hyperlink. The href attribute specifies the URL of the page the link goes to
+Ex. <a href="https://www.w3schools.com">Link</a>
+
+The src Attribute : 
+The <img> tag is used to embed an image in an html page. The src attribute specifies the path to the image to be displayed.
+There are two ways to specify the URL in source attribute,
+1. Absolute URL : Linkes an external image that is hosted on another website
+   Ex. <img src="https://www.w3schools.com/images/img_girl.jpg">
+
+2. Relative URL : Linkes an image that is hosted within the website
+   Ex. <img src="cherry.jpg">
+
+The width and height Attribure :
+The <img> tag should also contain width and height attribute, that specify the width and height of the image
+Ex. <img src="cherry.jpg" width="500" height="500">
+
+The <alt> Attribute : 
+The alt attribute in the <img> tag specifies the alternataive text of the image
+Ex. <img src="cherry.jpg" alt="red cherry">
+
+The style Attribute : 
+style attribute is used to style an element
+Ex. <p style="color:red;" > This is a paragraph. </p>
+
+The lang Attribute : 
+used in <html> element to declare the language of the web page
+Ex. <html lang="en">
+
+Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+Ex. <html lang="en-US">
+
+The title Attribute : 
+The title attribute provide the extra information about the elements.
+Ex. <p title="I'm a tooltip">This is a paragraph.</p> 
+when mouse hover on the text the title text will apear
+
+We Suggest: Always Use Lowercase Attributes.
+We Suggest: Always Quote Attribute Values. Ex. title="Title text"
+Single or Double Quotes? double quotes is preferred
+-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="https://www.w3schools.com">Link</a>
+
+    <img src="cherry.jpg">
+    <img src="https://www.w3schools.com/images/img_girl.jpg">
+
+    <img src="cherry.jpg" width="500" height="500">
+
+    <img src="cherry.jpg" alt="red cherry">
+
+    <p style="color:green;" > This is a paragraph. </p>
+
+    <p title="This is title"> hover to see the title text</p>
+
+    <p TITLE="This is title"> Lowercase title is preferred</p> 
+    <p title= this is title> without quotes is not not valid</p> 
+    <p title= 'this is title'> double quotes is preferred over single quotes for attribute vlaue</p> 
+  </body>
+</html>
